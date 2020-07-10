@@ -3,7 +3,7 @@
     <nav>
       <ul>
         <li>
-          <nuxt-link to="/link01">リンク1</nuxt-link>
+          <nuxt-link to="/profile">プロフィール</nuxt-link>
         </li>
         <li>
           <nuxt-link to="/link02">リンク2</nuxt-link>
