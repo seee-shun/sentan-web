@@ -31,9 +31,4 @@ export default {
     no-repeat !important;
   background: linear-gradient(to right, #36aa37 0%, #2da8aa 50%) no-repeat !important;
 }
-.project-card {
-  margin: 50px;
-  margin-left: 100px;
-  text-align: center;
-}
 </style>
