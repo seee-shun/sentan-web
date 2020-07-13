@@ -3,16 +3,16 @@
     <nav>
       <ul>
         <li>
-          <nuxt-link to="/profile">プロフィール</nuxt-link>
+          <nuxt-link to="/">Top</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/link02">リンク2</nuxt-link>
+          <nuxt-link to="/detailProject">Project</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/link03">リンク3</nuxt-link>
+          <nuxt-link to="/detailActivity">Activity</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/link04">リンク4</nuxt-link>
+          <nuxt-link to="/detailProfile">Profile</nuxt-link>
         </li>
       </ul>
     </nav>
