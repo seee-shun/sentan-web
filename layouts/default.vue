@@ -1,10 +1,8 @@
 <template>
-  <v-app dark>
+  <v-app>
     <Header />
     <v-content>
-      <v-container>
-        <nuxt />
-      </v-container>
+      <nuxt />
     </v-content>
     <Footer />
   </v-app>
@@ -19,3 +17,9 @@ export default {
   },
 }
 </script>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+#app {
+  font-family: 'Kosugi Maru', sans-serif;
+}
+</style>
