@@ -23,9 +23,6 @@ export default {
     no-repeat !important;
   background: linear-gradient(to right, #36aa37 0%, #2da8aa 50%) no-repeat !important;
 }
-.activity {
-  background-color: #000000;
-}
 .profile {
   background: -webkit-linear-gradient(to right, #36aa37 0%, #2da8aa 50%)
     no-repeat !important;
