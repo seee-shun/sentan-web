@@ -116,6 +116,14 @@ export default {
 <style scoped>
 .profile-title {
   margin-top: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  /* margin: 30px; */
+  color: aliceblue;
+}
+</style>
+<style scoped>
+.ma-4 {
+  margin-bottom: 30px;
 }
 </style>
