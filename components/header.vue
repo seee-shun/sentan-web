@@ -26,7 +26,7 @@
                 <v-icon>mdi-home</v-icon>
               </v-list-item-icon>
               <v-list-item-title
-                ><nuxt-link to="/">Top</nuxt-link></v-list-item-title
+                ><nuxt-link to="/">トップ</nuxt-link></v-list-item-title
               >
             </v-list-item>
             <v-list-item>
@@ -34,9 +34,7 @@
                 <v-icon>mdi-laptop</v-icon>
               </v-list-item-icon>
               <v-list-item-title
-                ><nuxt-link to="/detailActivity"
-                  >Activity</nuxt-link
-                ></v-list-item-title
+                ><a href="#activ">活動内容</a></v-list-item-title
               >
             </v-list-item>
 
@@ -45,9 +43,7 @@
                 <v-icon>mdi-account</v-icon>
               </v-list-item-icon>
               <v-list-item-title
-                ><nuxt-link to="/detailProfile"
-                  >Profile</nuxt-link
-                ></v-list-item-title
+                ><a href="#prof">プロフィール</a></v-list-item-title
               >
             </v-list-item>
 
@@ -56,7 +52,9 @@
                 <v-icon>mdi-alpha-y-circle</v-icon>
               </v-list-item-icon>
               <v-list-item-title
-                ><a href="www.yuhashi-lab.net">遊橋研究室</a></v-list-item-title
+                ><a href="http://www.yuhashi-lab.net"
+                  >遊橋研究室</a
+                ></v-list-item-title
               >
             </v-list-item>
             <v-list-item>
@@ -64,7 +62,7 @@
                 <v-icon>mdi-alpha-s-circle</v-icon>
               </v-list-item-icon>
               <v-list-item-title
-                ><a href="www.sugilab.net/2020/index.html"
+                ><a href="http://www.sugilab.net/2020/index.html"
                   >杉山研究室</a
                 ></v-list-item-title
               >
