@@ -7,7 +7,7 @@
           <p class="display-2 font-weight-bold mt-20" color="#61d4b3">
             Project.
           </p>
-          <p class="display-1 text--primary">
+          <p class="text--primary">
             プラットフォームサービスの実習環境を構築する
           </p>
           <p class="text--primary">
@@ -42,6 +42,5 @@
 <style scoped>
 .project-card {
   margin: 50px;
-  margin-left: 100px;
 }
 </style>

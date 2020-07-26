@@ -1,9 +1,13 @@
 <template>
-  <div class="profile">
+  <div id="prof" class="profile">
     <div class="container">
       <h1 class="profile-title">プロフィール</h1>
-      <!-- <v-sheet class="mx-auto" elevation="8" max-width="800"> -->
-      <v-slide-group v-model="model" class="pa-4" center-active show-arrows>
+      <v-slide-group
+        v-model="model"
+        class="pa-4 profileGroup"
+        center-active
+        show-arrows
+      >
         <v-slide-item
           v-for="(item, n) in items"
           :key="n"
@@ -35,7 +39,6 @@
           </v-card>
         </v-slide-item>
       </v-slide-group>
-      <!-- </v-sheet> -->
     </div>
   </div>
 </template>
@@ -117,13 +120,10 @@ export default {
 .profile-title {
   margin-top: 40px;
   margin-bottom: 10px;
-  margin-left: 40px;
   /* margin: 30px; */
   color: aliceblue;
 }
-</style>
-<style scoped>
-.ma-4 {
+.profileGroup {
   margin-bottom: 30px;
 }
 </style>
