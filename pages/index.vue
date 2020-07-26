@@ -25,9 +25,6 @@ export default {
   padding: 40px;
   color: #ffffff;
 }
-.activity {
-  background-color: #000000;
-}
 .profile {
   background: -webkit-linear-gradient(to right, #36aa37 0%, #2da8aa 50%)
     no-repeat !important;
