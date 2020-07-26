@@ -1,7 +1,7 @@
 <template>
   <div class="profile">
     <div class="container">
-      <h1>Profile.</h1>
+      <h1 class="profile-title">プロフィール</h1>
       <!-- <v-sheet class="mx-auto" elevation="8" max-width="800"> -->
       <v-slide-group v-model="model" class="pa-4" center-active show-arrows>
         <v-slide-item
@@ -16,7 +16,7 @@
             width="210"
             @click="toggle"
           >
-            <v-img src="~/assets/profile/noimage.jpg" height="200px"></v-img>
+            <v-img :src="item.picture" height="200px"></v-img>
 
             <v-card-title>{{ item.name }}</v-card-title>
 
@@ -44,20 +44,78 @@ export default {
   data: () => ({
     item: 1,
     items: [
-      { name: '清野 峻吾', subname: 'Seino Syungo', picture: '' },
-      { name: '渡辺 大誠', subname: 'Watanabe Taisei', picture: '' },
-      { name: '梶 貴広', subname: 'Kaji Takahiro', picture: '' },
-      { name: '城崎 遼', subname: 'Josaki Ryo', picture: '' },
-      { name: '小塚 公介', subname: 'Kozuka Kosuke', picture: '' },
-      { name: '和田 颯太郎', subname: 'Wada Sotaro', picture: '' },
-      { name: '森岡 美冴', subname: 'Morioka Miki', picture: '' },
-      { name: 'Nguyen Thuy Duong', subname: 'Nguyen Thuy Duong', picture: '' },
-      { name: '江原 柊太', subname: 'Ebara Syuta', picture: '' },
-      { name: '赤熊 佑斗', subname: 'Akakuma Yuto', picture: '' },
-      { name: '山口 翼', subname: 'Yamaguti Tubasa', picture: '' },
-      { name: '表 梨花子', subname: 'Omote Rikako', picture: '' },
-      { name: '鶴﨑 弘晃', subname: 'Tsurusaki Hiroaki', picture: '' },
+      {
+        name: '清野 峻吾',
+        subname: 'Seino Syungo',
+        picture: '/profile/seino.jpg',
+      },
+      {
+        name: '渡辺 大誠',
+        subname: 'Watanabe Taisei',
+        picture: '/profile/watanabe.png',
+      },
+      {
+        name: '梶 貴広',
+        subname: 'Kaji Takahiro',
+        picture: '/profile/noimage.png',
+      },
+      {
+        name: '城崎 遼',
+        subname: 'Josaki Ryo',
+        picture: '/profile/noimage.png',
+      },
+      {
+        name: '小塚 公介',
+        subname: 'Kozuka Kosuke',
+        picture: '/profile/kozuka.png',
+      },
+      {
+        name: '和田 颯太郎',
+        subname: 'Wada Sotaro',
+        picture: '/profile/noimage.png',
+      },
+      {
+        name: '森岡 美冴',
+        subname: 'Morioka Miki',
+        picture: '/profile/noimage.png',
+      },
+      {
+        name: 'Nguyen Thuy Duong',
+        subname: 'Nguyen Thuy Duong',
+        picture: '/profile/noimage.png',
+      },
+      {
+        name: '江原 柊太',
+        subname: 'Ebara Syuta',
+        picture: '/profile/noimage.png',
+      },
+      {
+        name: '赤熊 佑斗',
+        subname: 'Akakuma Yuto',
+        picture: '/profile/akakuma.jpg',
+      },
+      {
+        name: '山口 翼',
+        subname: 'Yamaguti Tubasa',
+        picture: '/profile/noimage.png',
+      },
+      {
+        name: '表 梨花子',
+        subname: 'Omote Rikako',
+        picture: '/profile/omote.png',
+      },
+      {
+        name: '鶴﨑 弘晃',
+        subname: 'Tsurusaki Hiroaki',
+        picture: '/profile/tsurusaki.png',
+      },
     ],
   }),
 }
 </script>
+<style scoped>
+.profile-title {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+</style>
