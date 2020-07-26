@@ -4,7 +4,7 @@
       <h1>プラットフォームサービスのエコシステム形成に関する実践的研究</h1>
       <v-card class="mx-auto project-card">
         <v-card-text>
-          <p class="display-2 indigo--text font-weight-bold mt-20">
+          <p class="display-2 font-weight-bold mt-20" color="#61d4b3">
             Project.
           </p>
           <p class="display-1 text--primary">
@@ -18,7 +18,7 @@
       </v-card>
       <v-card class="mx-auto project-card">
         <v-card-text>
-          <p class="display-2 indigo--text font-weight-bold mt-20">
+          <p class="display-2 font-weight-bold mt-20" color="#61d4b3">
             Service.
           </p>
           <p class="text--primary">
@@ -30,6 +30,11 @@
             ④学生によるコンテンツの閲覧 ⑤部活・サークル情報の閲覧
           </p>
         </v-card-text>
+        <v-card-actions>
+          <v-btn text color="accent-4">
+            さらに詳しく
+          </v-btn>
+        </v-card-actions>
       </v-card>
     </div>
   </div>
