@@ -60,12 +60,12 @@ export default {
       {
         name: '梶 貴広',
         subname: 'Kaji Takahiro',
-        picture: '/profile/noimage.png',
+        picture: '/profile/kaji.png',
       },
       {
         name: '城崎 遼',
         subname: 'Josaki Ryo',
-        picture: '/profile/noimage.png',
+        picture: '/profile/josaki.png',
       },
       {
         name: '小塚 公介',
